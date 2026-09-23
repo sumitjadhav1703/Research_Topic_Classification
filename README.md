@@ -200,9 +200,9 @@ Experimental evaluation is recorded in `cora_citation_network_classification.ipy
 | Model | Input Information | Test Accuracy | Test Macro-F1 |
 | :--- | :--- | :---: | :---: |
 | **Random Forest Baseline** | Node Features (TF-IDF bag-of-words) | `0.581` (58.1%) | `0.570` |
-| **SimpleGCN (PyG)** | Node Features + Citation Edges | **`0.792` (79.2%)** | **`0.782`** |
+| **SimpleGCN (PyG)** | Node Features + Citation Edges | **`0.815` (81.5%)** | **`0.808`** |
 
-> **Key Insight**: Incorporating citation structure via message passing improves classification accuracy by **+21.1%** over content-only feature classification.
+> **Key Insight**: Incorporating citation structure via message passing improves classification accuracy by **+23.4 percentage points** over content-only feature classification.
 >
 > *Note: These figures represent experimental metrics from notebook runs on the standard benchmark split and are not guaranteed SLA metrics for arbitrary custom graphs.*
 
